@@ -40,6 +40,7 @@ import spotify from '../assets/spotify.png';
 import halloween from '../assets/halloween.png'
 import diya from '../assets/diya.jpeg'
 
+// eslint-disable-next-line import/no-anonymous-default-export
 export default {
     email,
     mobile,
