@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap");
+
+@layer base {
+  * {
+    @apply box-border p-0 m-0 scroll-smooth;
+  }
+}
+
+@layer components {
+  .app__whitebg {
+    @apply bg-white dark:bg-dark-card;
+  }
+
+  .app__primarybg {
+    @apply bg-primary dark:bg-dark-surface;
+  }
+
+  .app__flex {
+    @apply flex justify-center items-center;
+  }
+
+  .head-text {
+    @apply text-[2.75rem] font-extrabold text-center text-black-base dark:text-white capitalize;
+  }
+
+  .head-text span {
+    @apply text-secondary;
+  }
+
+  .p-text {
+    @apply text-[0.8rem] text-left text-gray-base dark:text-slate-400 leading-relaxed;
+  }
+
+  .bold-text {
+    @apply text-base font-extrabold text-black-base dark:text-white text-left;
+  }
+}
